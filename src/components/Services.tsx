@@ -94,7 +94,7 @@ const Services = () => {
             {[
               "KX-NSX 1000/2000",
               "KX-NS500/1000",
-              "KX-TDE600",
+              "KX-TDE(A) 100/200/600",
               "KX-HTS32",
               "KX-NS1000",
               "E muitos outros modelos",
