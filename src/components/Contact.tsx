@@ -113,10 +113,6 @@ const Contact = () => {
                 </h3>
                 <p className="text-muted-foreground">
                   Segunda a Sexta: 8h às 18h
-                  <br />
-                  Sábado: 8h às 12h
-                  <br />
-                  Atendimento emergencial 24/7
                 </p>
               </CardContent>
             </Card>
