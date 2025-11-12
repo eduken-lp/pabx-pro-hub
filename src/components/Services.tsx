@@ -93,7 +93,7 @@ const Services = () => {
           <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
             {[
               "KX-NSX 1000/2000",
-              "KX-NS500",
+              "KX-NS500/1000",
               "KX-TDE600",
               "KX-HDV430",
               "KX-NS1000",
