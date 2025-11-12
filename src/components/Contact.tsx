@@ -54,8 +54,8 @@ const Contact = () => {
     {
       icon: Mail,
       title: "E-mail",
-      content: "contato@pabxsolutions.com.br",
-      link: "mailto:contato@pabxsolutions.com.br",
+      content: "contato@novateleinformatica.com.br",
+      link: "mailto:contato@novateleinformatica.com.br",
     },
     {
       icon: MapPin,
