@@ -96,7 +96,7 @@ const Services = () => {
               "KX-NS500/1000",
               "KX-TDE(A) 100/200/600",
               "KX-HTS32",
-              "KX-NS1000",
+              "KX-TES32",
               "E muitos outros modelos",
             ].map((model, index) => (
               <li key={index} className="flex items-center text-foreground">
