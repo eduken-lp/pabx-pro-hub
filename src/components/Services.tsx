@@ -95,7 +95,7 @@ const Services = () => {
               "KX-NSX 1000/2000",
               "KX-NS500/1000",
               "KX-TDE600",
-              "KX-HDV430",
+              "KX-HTS32",
               "KX-NS1000",
               "E muitos outros modelos",
             ].map((model, index) => (
