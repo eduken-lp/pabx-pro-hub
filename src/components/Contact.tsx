@@ -60,7 +60,7 @@ const Contact = () => {
     {
       icon: MapPin,
       title: "Localização",
-      content: "São Paulo, SP - Atendimento em todo Brasil",
+      content: "São Paulo, SP - Atendimento em presencial na Grande São Paulo e atendimento remoto em todo Brasil",
       link: null,
     },
   ];
