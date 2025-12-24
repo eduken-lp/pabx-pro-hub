@@ -8,6 +8,17 @@ import kxTde600 from "@/assets/kx-tde600.jpg";
 
 const Equipment = () => {
   const equipment = [
+
+    // Centrais
+  {
+      name: "Panasonic KX-NS500",
+      description: "Central PABX híbrida para pequenas e médias empresas, com suporte completo a VoIP.",
+      features: ["Sistema híbrido", "Até 288 ramais", "VoIP integrado", "Expansível"],
+      image: kxNs500,
+      category: "Centrais PABX",
+    },
+
+
     {
       name: "Panasonic KX-NT560",
       description: "Telefone IP de alta qualidade com tela colorida, ideal para ambientes corporativos.",
