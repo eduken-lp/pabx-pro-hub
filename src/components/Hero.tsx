@@ -1,6 +1,7 @@
 import { ArrowRight, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-pabx.jpg";
+import logo from "@/assets/logo.png";
 
 const Hero = () => {
   const scrollToContact = () => {
@@ -35,6 +36,7 @@ const Hero = () => {
       {/* Content */}
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-3xl">
+          <img src={logo} alt="Nova Teleinformática" className="h-32 md:h-40 mb-8" />
           <h1 className="text-5xl md:text-7xl font-bold mb-6 text-foreground">
             Especialista em <span className="text-primary">PABX Panasonic</span>
           </h1>
