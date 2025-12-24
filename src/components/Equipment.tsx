@@ -6,54 +6,71 @@ import kxNt560 from "@/assets/kx-nt560.jpg";
 import kxNs500 from "@/assets/kx-ns500.jpg";
 import kxTde600 from "@/assets/kx-tde600.jpg";
 
+
+import novaKxNs500 from "@/assets/kx-ns500.jpg";
+import novaKxTde200600 from "@/assets/KX-TDE200-600.jpg";
+import novaKxNs1k from "@/assets/KX-NS1000.png";
+import novaKxNsx1k2k from "@/assets/KX-NSX1k_2k.jpg";
+
+import novoKxDt from "@/assets/KS-DT Panasonic.png";
+import novoKxHdv230 from "@/assets/HDV 230.jpg";
+
 const Equipment = () => {
   const equipment = [
 
     // Centrais
-  {
-      name: "Panasonic KX-NS500",
-      description: "Central PABX híbrida para pequenas e médias empresas, com suporte completo a VoIP.",
-      features: ["Sistema híbrido", "Até 288 ramais", "VoIP integrado", "Expansível"],
-      image: kxNs500,
-      category: "Centrais PABX",
-    },
-
-
-    {
-      name: "Panasonic KX-NT560",
-      description: "Telefone IP de alta qualidade com tela colorida, ideal para ambientes corporativos.",
-      features: ["Tela LCD colorida", "Suporte VoIP", "Múltiplas linhas", "Qualidade HD"],
-      image: kxNt560,
-      category: "Telefones IP",
-    },
+    // ok
     {
       name: "Panasonic KX-NS500",
       description: "Central PABX híbrida para pequenas e médias empresas, com suporte completo a VoIP.",
       features: ["Sistema híbrido", "Até 288 ramais", "VoIP integrado", "Expansível"],
-      image: kxNs500,
+      image: novaKxNs500,
       category: "Centrais PABX",
     },
+
+    // ok
     {
-      name: "Panasonic KX-TDE600",
+      name: "Panasonic KX-TDE 200-600",
       description: "Central de comunicação empresarial para grandes empresas com recursos avançados.",
       features: ["Alta capacidade", "Integração avançada", "Redundância", "Escalável"],
-      image: kxTde600,
+      image: novaKxTde200600,
       category: "Centrais PABX",
     },
-    {
-      name: "Panasonic KX-HDV430",
-      description: "Telefone IP de alto desempenho, ideal para call centers e ambientes de alta demanda.",
-      features: ["Full HD Voice", "6 linhas SIP", "Tela grande", "Alta performance"],
-      image: kxNt560,
-      category: "Telefones IP",
-    },
+    // ok
     {
       name: "Panasonic KX-NS1000",
       description: "Sistema de comunicação unificado para empresas de todos os tamanhos.",
-      features: ["Comunicação unificada", "Até 2500 ramais", "Cloud ready", "Mobilidade"],
-      image: kxNs500,
+      features: ["Comunicação unificada", "Até 1000 ramais", "Cloud ready", "Mobilidade"],
+      image: novaKxNs1k,
       category: "Centrais PABX",
     },
+    // ok
+    {
+      name: "Panasonic KX-NSX-1K-2K",
+      description: "Sistema de comunicação unificado para empresas de todos os tamanhos.",
+      features: ["Comunicação unificada", "Até 2000 usuários", "Cloud ready", "Mobilidade"],
+      image: novaKxNsx1k2k,
+      category: "Centrais PABX",
+    },
+
+    // Telefones
+    {
+      name: "Panasonic KX-DT",
+      description: "Telefone IP de alto desempenho, ideal para call centers e ambientes de alta demanda.",
+      features: ["Full HD Voice", "6 linhas SIP", "Tela grande", "Alta performance"],
+      image: novoKxDt,
+      category: "Telefones IP",
+    },
+
+    
+    {
+      name: "Panasonic KX-HDV230",
+      description: "Telefone IP de alta qualidade com tela colorida, ideal para ambientes corporativos.",
+      features: ["Tela LCD colorida", "Suporte VoIP", "Múltiplas linhas", "Qualidade HD"],
+      image: novoKxHdv230,
+      category: "Telefones IP",
+    },
+
   ];
 
   const scrollToContact = () => {
