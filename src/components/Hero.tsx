@@ -36,7 +36,7 @@ const Hero = () => {
       {/* Content */}
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-3xl">
-          <img src={logo} alt="Nova Teleinformática" className="h-32 md:h-40 mb-8" />
+          <img src={logo} alt="Nova Teleinformática" className="h-24 md:h-32 mb-8" />
           <h1 className="text-5xl md:text-7xl font-bold mb-6 text-foreground">
             Especialista em <span className="text-primary">PABX Panasonic</span>
           </h1>
